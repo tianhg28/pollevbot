@@ -1,7 +1,13 @@
 import { promises as fs } from 'fs';
 
 async function log(message) {
-    await fs.writeFile('log.txt', `${getTime24H()} - ${message}\n`, {flag: 'a'});
+    // make the file name a month-date-year format'
+    let date = new Date();
+    let month = date.getMonth() + 1;
+    let day = date.getDate();
+    let year = date.getFullYear();
+    let fileName = `./logs/${month}-${day}-${year}.txt`;
+    await fs.writeFile(fileName, `${getTime24H()} - ${message}\n`, {flag: 'a'});
 }
 
 function getTime24H() {
