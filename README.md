@@ -20,10 +20,11 @@ This project is for educational purposes only and is not intended to be used for
    - Click **Download ZIP**.
    - Save the ZIP file to your computer and extract it to a directory where you want to work with the `pollevbot`.
 
-2. **Navigate to the bot directory:**
+2. **Unzip the file and navigate to the bot directory:**
 
    ```bash
-   cd pollev-bot
+   unzip pollevbot-main.zip
+   cd pollevbot-main
    ```
 
 3. **Install dependencies:**
