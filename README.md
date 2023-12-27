@@ -34,7 +34,7 @@ This project is for educational purposes only and is not intended to be used for
 
 ## Configuration
 
-Modify the `config.js` file to suit your needs. The following settings are available:
+Modify the `src/config.js` file to suit your needs. The following settings are available:
 
 - **scheduleName**: Name of the schedule or class you're attending (e.g., "Math101").
 - **hostname**: The unique Poll Everywhere URL you're connecting to (e.g., "https://pollev.com/hostname").
@@ -47,7 +47,7 @@ Modify the `config.js` file to suit your needs. The following settings are avail
 1. **Running the bot:**
 
    ```bash
-   node app.js
+   node src/app.js
    ```
 
    This command starts the bot. It logs in automatically using cookies. If the cookies are invalid or expired, it will prompt you to log in.
@@ -55,7 +55,7 @@ Modify the `config.js` file to suit your needs. The following settings are avail
 2. **Running the login script separately:**
 
    ```bash
-   node login.js
+   node src/login.js
    ```
 
    Use this if you would like to log in separately and start the bot using cron.
