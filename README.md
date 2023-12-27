@@ -15,16 +15,16 @@ This project is for educational purposes only and is not intended to be used for
 
 ## Installation
 
-1. **Download the Repository:**
-   - Above the list of files, click the green **Code** button.
-   - Click **Download ZIP**.
-   - Save the ZIP file to your computer and extract it to a directory where you want to work with the `pollevbot`.
-
-2. **Unzip the file and navigate to the bot directory:**
+1. **Clone the repository::**
 
    ```bash
-   unzip pollevbot-main.zip
-   cd pollevbot-main
+   git clone https://github.com/tianhg28/pollevbot.git
+   ```
+
+2. **Navigate to the bot directory:**
+
+   ```bash
+   cd pollevbot
    ```
 
 3. **Install dependencies:**
