@@ -13,7 +13,7 @@ class PollevBot {
 
   async init() {
     // headless as false for debugging mode
-    this.browser = await puppeteer.launch({ headless: false});
+    this.browser = await puppeteer.launch({ headless: true});
     this.page = await this.browser.newPage();
     this.startTime = Date.now();
     this.endTime = this.startTime + this.minutes * 60 * 1000;
