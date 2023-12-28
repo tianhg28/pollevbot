@@ -64,7 +64,7 @@ Modify the `src/config.js` file to suit your needs. The following settings are a
 ## Logs and Cookies
 
 - **Logs**: The bot's activities are logged in the `logs` directory, where the log file name is the current date. This includes the bot's actions and any errors that occur.
-- **Cookies**: `cookies.txt` contains cookies used for logging in. The program saves the cookie after login, and if the cookies are invalid, it will prompt you to log in again.
+- **Cookies**: `cookies.json` contains cookies used for logging in. The program saves the cookie after login, and if the cookies are invalid, it will prompt you to log in again.
 
 ## Scheduling with Crontab (Unix Systems)
 
