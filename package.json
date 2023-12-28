@@ -10,7 +10,7 @@
   },
   "description": "Automated bot for answer pollev questions.",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "src/app.js",
   "devDependencies": {},
   "scripts": {},
   "license": "MIT"
