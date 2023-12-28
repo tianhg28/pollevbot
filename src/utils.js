@@ -7,6 +7,7 @@ async function log(message) {
     let day = date.getDate();
     let year = date.getFullYear();
     let fileName = `./logs/${month}-${day}-${year}.txt`;
+    console.log(`${getTime24H()} - ${message}`);
     await fs.writeFile(fileName, `${getTime24H()} - ${message}\n`, {flag: 'a'});
 }
 
