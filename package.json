@@ -9,9 +9,14 @@
     "set-cookie-parser": "^2.6.0"
   },
   "description": "Automated bot for answer pollev questions.",
+  "engines": {
+    "node": "21.x"
+  },
   "version": "1.0.0",
   "main": "src/app.js",
   "devDependencies": {},
-  "scripts": {},
+  "scripts": {
+    "start": "node src/app.js"
+  },
   "license": "MIT"
 }
